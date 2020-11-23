@@ -43,7 +43,7 @@ function Dogs() {
             <button type="button">Sign In</button>
           </Link>
         </div>
-        <div className="App" role = "main">
+        <div className="App" role="main">
           <Slider images={dogs} />
         </div>
       </div>
@@ -63,14 +63,14 @@ function Dogs() {
           </Link>
         </div>
         <main>
-        <Container>
-          <h1 id="h2">Loading page</h1>
-          <Image
-            src={dogimage}
-            alt="dog says thank you for waiting as the page loads"
-            fluid
-          />
-        </Container>
+          <Container>
+            <h1 id="h2">Loading page</h1>
+            <Image
+              src={dogimage}
+              alt="dog says thank you for waiting as the page loads"
+              fluid
+            />
+          </Container>
         </main>
       </div>
     );

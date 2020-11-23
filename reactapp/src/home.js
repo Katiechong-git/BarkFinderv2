@@ -28,14 +28,14 @@ function Home() {
 
       <section id="section1">
         <div className="main" role="banner">
-          <h1 id="header">
+          <h1 id="header2">
             Ready to meet your new best friend?
             <br />
             Join BarkFinder today!
-            <a class="scroll" href="#section2">
-              <span></span>Scroll
-            </a>
           </h1>
+          <a class="scroll" href="#section2">
+            <span></span>Scroll
+          </a>
         </div>
       </section>
       <section id="section2">

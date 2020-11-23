@@ -59,7 +59,6 @@ const Table = () => {
         ),
       },
       {
-
         Header: "Breed",
         accessor: "breed",
         disableSortBy: true,
@@ -101,31 +100,29 @@ const Table = () => {
     return (
       <div>
         <body>
-        <div className="navbar" role="navigation">
-          <Link to="/dogpage">
-            <button type="button2"> Send a 💖</button>
-          </Link>
-          <Link to="/userprofile">
-            <button type="button2">My Account</button>
-          </Link>
-          <form className="form" action="/auth/signout" method="post">
-            <button type="button2">Sign Out</button>
-          </form>
-        </div>
-        <main>
-        <Container style={{ marginTop: 100 }}>
-          <h1>Help adopt one of these dogs!</h1>
-          <TableContainer
-            columns={columns}
-            data={dogs}
-            renderRowSubComponent={renderRowSubComponent}
-          />
-        </Container>
-        </main>
+          <div className="navbar" role="navigation">
+            <Link to="/dogpage">
+              <button type="button2"> Send a 💖</button>
+            </Link>
+            <Link to="/userprofile">
+              <button type="button2">My Account</button>
+            </Link>
+            <form className="form" action="/auth/signout" method="post">
+              <button type="button2">Sign Out</button>
+            </form>
+          </div>
+          <main>
+            <Container style={{ marginTop: 100 }}>
+              <h1>Help adopt one of these dogs!</h1>
+              <TableContainer
+                columns={columns}
+                data={dogs}
+                renderRowSubComponent={renderRowSubComponent}
+              />
+            </Container>
+          </main>
         </body>
-
       </div>
-
     );
   } else {
     return (

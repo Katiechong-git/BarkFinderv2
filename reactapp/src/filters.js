@@ -40,7 +40,6 @@ export const SelectColumnFilter = ({
   }, [id, preFilteredRows]);
 
   return (
-
     <CustomInput
       aria-label="id"
       id="custom-select"

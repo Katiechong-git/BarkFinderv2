@@ -1,11 +1,11 @@
 # BarkFinderv2
-Deployed: https://infinite-citadel-02802.herokuapp.com/ <br/>
+Deployed: https://guarded-everglades-95993.herokuapp.com/ <br/>
 Authors: Jennifer Chang and Katie Chong <br/> <br/>
 Class Link: https://johnguerra.co/classes/webDevelopment_fall_2020/ <br/>
 Project 3 Objective: Improving Project 2 (BarkFinder) by implementing accessibility, design and usability concepts<br/> <br/>
 Screenshots: <br/>
-![ScreenShot](/screenshots/screenshot0.jpg)
-![ScreenShot](/screenshots/screenshot1.jpg)
+![ScreenShot](/screenshots/first.jpg)
+![ScreenShot](/screenshots/second.jpg)
 For more screenshots, reference the "Screenshots" folder in this repository.
 <br/> <br/>
 Instructions to build: <br/>

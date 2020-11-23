@@ -62,7 +62,6 @@ button:hover {
 }
 
 .main {
-  color: #3c240f;
   display: flex;
   font-family: "Playfair Display", serif;
   flex-direction: column;
@@ -79,18 +78,20 @@ h1 {
 }
 
 header {
+  background: whitesmoke;
+  color: #7d5d3b;
   font-size: 10vh;
   padding: 0px;
   margin: 0px;
-  background: whitesmoke;
 }
 
 p {
+  background: whitesmoke;
+  color: #7d5d3b;
   font-size: 3.5vh;
   width: 50%;
   padding: 0px;
-  margin: 0px;
-  background: whitesmoke;
+  margin: 40px;
 }
 
 #second {
@@ -106,6 +107,7 @@ a.scroll:hover {
   opacity: 0.5;
 }
 a.scroll {
+  background-color: #7d5d3b;
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -118,7 +120,6 @@ a.scroll {
   letter-spacing: 0.1em;
   text-decoration: none;
   transition: opacity 0.3s;
-  background-color: #7d5d3b;
 }
 
 #section1 a {
@@ -171,7 +172,8 @@ a.scroll {
   background: #555;
 }
 
-#header {
-  font-size: 10vh;
-  color: black;
+#header2 {
+  font-size: 5vh;
+  color: whitesmoke;
+  background-color: #7d5d3b;
 }

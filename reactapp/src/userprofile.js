@@ -7,11 +7,11 @@ function UserProfile() {
   const urlParams = new URLSearchParams(window.location.search);
   const error = urlParams.get("error");
   return (
-    <div className="user">
+    <div className="user" role="main">
       <div className="container-fluid d-flex justify-content-center">
         <div className="usercard3">
           <div className="card-header">
-            <h3>My Account</h3>
+            <h1 id="header">My Account</h1>
           </div>
           <div className="card-body">
             <form id="update" action="/auth/update" method="post"></form>
@@ -47,7 +47,7 @@ function UserProfile() {
                   form="update"
                 />
               </div>
-              <div className="form group">
+              <div className="form-group">
                 <label for="newpassword">
                   New Password: <br />
                   (leave blank if deleting account)
@@ -68,8 +68,9 @@ function UserProfile() {
                   (leave blank if updating account)
                 </label>
                 <input
+                  aria-label="for-delete"
                   type="text"
-                  id="delete"
+                  id="the-delete"
                   name="delete"
                   className="form-control"
                   placeholder="Enter your username here to confirm"
@@ -96,9 +97,9 @@ function UserProfile() {
                 </div>
               </div>
             </form>
-            <div className="form-group">
-              <Link to="/table">Cancel and return to previous page.</Link>
-            </div>
+            <Link to="/table">
+              <button type="button">Return</button>
+            </Link>
           </div>
         </div>
       </div>

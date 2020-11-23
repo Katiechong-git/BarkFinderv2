@@ -87,17 +87,19 @@ const TableContainer = ({ columns, data, renderRowSubComponent }) => {
       <Row style={{ maxWidth: 1000, margin: "0 auto", textAlign: "center" }}>
         <Col md={2}>
           <CustomInput
-            aria-label ="page"
+            aria-label="page"
             type="select"
             value={pageSize}
             onChange={onChangeInSelect}
           >
             >
-            {[10, 20, 30, 40, 50, 60, 70, 80, 100, 200, 500, 1000].map((pageSize) => (
-              <option key={pageSize} value={pageSize}>
-                Show {pageSize}
-              </option>
-            ))}
+            {[10, 20, 30, 40, 50, 60, 70, 80, 100, 200, 500, 1000].map(
+              (pageSize) => (
+                <option key={pageSize} value={pageSize}>
+                  Show {pageSize}
+                </option>
+              )
+            )}
           </CustomInput>
         </Col>
       </Row>

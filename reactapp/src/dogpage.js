@@ -7,7 +7,7 @@ function DogPage() {
   const urlParams = new URLSearchParams(window.location.search);
   const error = urlParams.get("error");
   return (
-    <div className="dogpage" role = "main">
+    <div className="dogpage" role="main">
       <div className="container-fluid d-flex justify-content-center">
         <div className="navbar" role="navigation">
           <Link to="/userprofile">
@@ -19,20 +19,20 @@ function DogPage() {
         </div>
         <div className="usercard2">
           <div className="card-header">
-            <h1 id = "header">Send a heart to your favorite dog!</h1>
+            <h1 id="header">Send a heart to your favorite dog!</h1>
           </div>
           <div className="card-body">
             <form id="send" action="/auth/updateLike" method="post">
               <div className="form-group">
-                <div className = "dog-name">
-                <label for="dogname">Name of the dog:</label>
-                <input
-                  type="text"
-                  id="dogname"
-                  name="dogname"
-                  className="form-control"
-                  placeholder="Kiara"
-                />
+                <div className="dog-name">
+                  <label for="dogname">Name of the dog:</label>
+                  <input
+                    type="text"
+                    id="dogname"
+                    name="dogname"
+                    className="form-control"
+                    placeholder="Kiara"
+                  />
                 </div>
               </div>
 

@@ -8,7 +8,7 @@ body {
 .usercard3 {
   background-color: whitesmoke;
   opacity: 0.8;
-  height: 600px;
+  height: 650px;
   width: 350px;
   margin-top: auto;
   margin-bottom: auto;
@@ -50,5 +50,23 @@ a {
 
 .buttons {
   padding: 5px;
+  margin: 2px;
+}
+.form-group {
+  background-color: whitesmoke;
+  color: black;
+}
+.end {
+  background-color: whitesmoke;
+  color: black;
+}
+
+#header {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.button {
+  padding: 2px;
   margin: 2px;
 }

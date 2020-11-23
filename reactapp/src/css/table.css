@@ -42,7 +42,7 @@ body {
   font-size: 20px;
   color: white;
   background: linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
-  background-color: #634b30;;
+  background-color: #634b30;
   border: 1px solid #54381e;
   cursor: pointer;
   font-size: 14px;
@@ -56,7 +56,7 @@ body {
   background-color: #634b30;
 }
 
-.custom-select{
-  color:white;
-  background:#634b30;
+.custom-select {
+  color: white;
+  background: #634b30;
 }
